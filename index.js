@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
             listItem.appendChild(itemText);
 
             const editButton = document.createElement('button');
-            editButton.textContent = 'Edit';
+            editButton.textContent = 'Edit-Items';
             editButton.classList.add('edit');
             editButton.addEventListener('click', () => editItem(index));
             listItem.appendChild(editButton);
